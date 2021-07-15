@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        
+        stage('testfiles') {
+            steps {
+                sh ' cat test123.html'
+            
+        }
+            
+        }
+        
+    }
+}
