@@ -6,10 +6,19 @@ pipeline {
         stage('testfiles') {
             steps {
                 sh ' cat test123.html'
-            
-        }
+                
             
         }
         
+            
+        }
+        
+        stage('testfiles2') {
+            steps {
+                sh ' cat test123.html'
+             }
+        
+            
+        }
     }
 }
